@@ -2083,10 +2083,13 @@ body {
             width: 100%;
             .manage__left{
                 img{
-                    margin-top: 56%;
-                    margin-left: 38%;
                     width: 10rem;
                     height: 10rem;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    margin-top: 186px;
                 }
             }
             .manage__right{
@@ -2095,11 +2098,12 @@ body {
                 hr{
                     margin: auto;
                 }
-                .mange__right--name{
+                .mange__right--name h2{
                     font-size: 2rem;
+                    margin-bottom:0;
                 }
                 .manage__right--title h3{
-                    width: 90%;
+                    width: 72%;
                     margin: auto;
                     font-size: 2rem;
                 }
@@ -2125,10 +2129,15 @@ body {
         }
     }
     .wrapper5{
-        height: 170px;
+        height: 200px;
+        margin-top: 35px;
         .banner{
             img{
-                height: auto;
+                position: absolute;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                object-position: 60% 50%;
             }
             .banner__title{
                 font-size: 1.8rem;
@@ -2146,7 +2155,7 @@ body {
                 margin-top: -95px;
             }
             .banner__video{
-                margin-top: 215px;
+                margin-top: 230px;
                 .btn{
                     font-size: 0.8rem;
                 }
@@ -2169,6 +2178,7 @@ body {
         }
         .blog__more{
             flex-direction: column;
+            top:45px;
             .blog__view{
                 width: 100%;
                 padding: 0;
@@ -2201,7 +2211,7 @@ body {
         }
     }
     .wrapper7{
-        margin-top: 105px;
+        margin-top: 7rem;
         height: 360px;
         .footer{
             height: 360px;
@@ -2254,6 +2264,11 @@ body {
         }
     }
 }
+/* @media (max-width:414px) and (min-width:376px){
+    .wrapper4 .manage .manage__left img{
+        margin-top: 46% !important;
+    }
+} */
 @keyframes fadeIn {
     from{
         opacity: 0;
