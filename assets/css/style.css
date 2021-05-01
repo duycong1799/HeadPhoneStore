@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 * {
   width: 100%;
   margin: 0;
@@ -102,22 +103,6 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px 0;
-  /*                 @media (max-width:1023px){
-                      .nav_bars-btn{
-                          display: block;
-                      }
-                      #nav-pc{
-                          display: none;
-                      }
-                  } */
-  /*             @media (max-width:1023px){
-                  .header__left{
-                      width:70%;
-                  }
-                  .header__right{
-                      width: 30%;
-                  }
-              } */
 }
 .wrapper .header .header__nav .nav_bars-btn {
   font-size: 28px;
@@ -258,34 +243,118 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 150px;
+  margin-top: 10px;
 }
-.wrapper .header .header__nav .header__action img {
-  width: 10%;
-  margin-left: 10.2rem;
-  margin-right: 0.5rem;
+.wrapper .header .header__nav .header__action .lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  right: 132px;
+  width: 137px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
-.wrapper .header .header__nav .header__action .fa-chevron-down {
-  display: inline;
+.wrapper .header .header__nav .header__action .lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
-.wrapper .header .header__nav .header__action p {
-  font-size: 1.6rem;
-  margin-right: -1.3rem;
+.wrapper .header .header__nav .header__action .lang-menu > ul > li > a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  display: block;
   margin-bottom: 0;
   color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+.wrapper .header .header__nav .header__action .lang-menu > ul > li > a:hover {
+  background-color: #fc846b;
+  color: #fff;
+}
+.wrapper .header .header__nav .header__action .lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+.wrapper .header .header__nav .header__action .lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.wrapper .header .header__nav .header__action .de:before {
+  background-image: url(https://cdn.countryflags.com/thumbs/germany/flag-800.png);
+  margin-top: 10px;
+}
+.wrapper .header .header__nav .header__action .en:before {
+  background-image: url(https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png);
+  margin-top: 10px;
+}
+.wrapper .header .header__nav .header__action .fr:before {
+  background-image: url(https://www.countryflags.com/wp-content/uploads/france-flag-png-large.png);
+  margin-top: 10px;
+}
+.wrapper .header .header__nav .header__action .kr:before {
+  background-image: url(https://www.countryflags.com/wp-content/uploads/south-korea-flag-png-large.png);
+  margin-top: 10px;
+}
+.wrapper .header .header__nav .header__action .lang-menu:hover ul {
+  display: block;
+}
+.wrapper .header .header__nav .header__action .selected-lang {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.wrapper .header .header__nav .header__action .selected-lang:hover {
+  color: #fc846b;
+}
+.wrapper .header .header__nav .header__action .selected-lang::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.com/wp-content/uploads/vietnam-flag-png-large.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 3px;
+}
+.wrapper .header .header__nav .header__action .selected-lang::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-size: 10px;
+  font-weight: bold;
+  text-rendering: auto;
+  margin-top: 3px;
+  margin-right: 5px;
 }
 .wrapper .header .header__nav .header__action a {
-  display: block;
-  text-align: center;
+  margin-bottom: 15px;
+  padding: 0 10px;
 }
 .wrapper .header .header__nav .header__action a i {
   color: #000;
   cursor: pointer;
-  font-size: 2.2rem;
-  padding: 0 0.5rem;
+  font-size: 2.5rem;
+  display: block;
 }
 .wrapper .header .header__title {
   position: relative;
-  margin-top: 245px;
+  margin-top: 210px;
   width: 632px;
   margin-left: 90px;
 }
@@ -301,10 +370,10 @@ body {
   width: 80%;
 }
 .wrapper .header .header__title .header__title--slogan h2 {
-  font-size: 40px;
+  font-size: 44px;
   font-family: "Playfair Display";
   margin-bottom: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: #f87a61;
 }
 .wrapper .header .header__title .header__title--des {
@@ -910,6 +979,33 @@ body {
 }
 
 /*End Footer*/
+@media (min-width: 1599px) {
+  .wrapper .header .header__nav .header__action {
+    width: 17%;
+  }
+
+  .wrapper4 .manage .manage__left {
+    width: 52%;
+  }
+
+  .wrapper4 .square-image {
+    width: 300px;
+    height: 300px;
+    margin-left: 170px;
+  }
+
+  .wrapper4 .manage .manage__left img {
+    margin-left: 300px;
+  }
+
+  .wrapper5 .banner__video .playvideo {
+    font-size: 2rem;
+  }
+
+  .wrapper7 .footer .search .submit {
+    left: 215px;
+  }
+}
 @media (max-width: 1200px) and (min-width: 1024px) {
   .btn {
     padding: 12px 50px;
@@ -933,7 +1029,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3rem;
+    margin-right: 4rem;
+    padding-left: 0;
+  }
+  .wrapper .header .header__nav .header__action .lang-menu {
+    display: none;
   }
   .wrapper .header .header__nav .header__action img {
     display: none;
@@ -1112,6 +1212,9 @@ body {
   }
   .wrapper .header .header__title .header__title--action {
     font-size: 1.8rem;
+  }
+  .wrapper .header .lang-menu {
+    display: none;
   }
 
   .wrapper2 {
@@ -1442,6 +1545,9 @@ body {
   .wrapper .header .header__title .header__title--action button {
     font-size: 1.6rem;
   }
+  .wrapper .header .lang-menu {
+    display: none;
+  }
 
   .wrapper2 {
     margin-bottom: 0px;
@@ -1758,6 +1864,7 @@ body {
   .wrapper .header .header__nav .header__action {
     justify-content: flex-end;
     width: 25%;
+    padding-left: 0;
   }
   .wrapper .header .header__nav .header__action #language, .wrapper .header .header__nav .header__action #language-text, .wrapper .header .header__nav .header__action #arrow-down, .wrapper .header .header__nav .header__action #arrow-down {
     display: none;
@@ -1786,6 +1893,9 @@ body {
   }
   .wrapper .header .header__title .header__title--action button {
     font-size: 1.6rem;
+  }
+  .wrapper .header .lang-menu {
+    display: none;
   }
 
   .wrapper2 {
@@ -2054,6 +2164,9 @@ body {
   .wrapper7 .footer .footer--slogan {
     top: 4.5rem;
   }
+  .wrapper7 .footer .footer--slogan > h2 {
+    font-size: 2rem;
+  }
   .wrapper7 .footer .search {
     top: 72px;
     width: 90%;
@@ -2081,11 +2194,6 @@ body {
     font-size: 10px;
   }
 }
-/* @media (max-width:414px) and (min-width:376px){
-    .wrapper4 .manage .manage__left img{
-        margin-top: 46% !important;
-    }
-} */
 @keyframes fadeIn {
   from {
     opacity: 0;
