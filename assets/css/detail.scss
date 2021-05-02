@@ -1903,6 +1903,7 @@ html{
                 width: 100%;
                 .detail{
                     .detail__left{
+                        height: 430px;
                         .img-main{
                             width: 100%;
                             height: auto;  
@@ -1911,6 +1912,7 @@ html{
                            justify-content: space-around;
                             img{
                                 width: 25%;
+                                height:initial;
                                 height: auto;
                                 padding: 0;
                                 padding: 0 10px;
@@ -2196,6 +2198,7 @@ html{
                     justify-content: center;
                     .detail__left{
                         width: 100%;
+                        height: 430px;
                         padding: 0;
                         .img-main{
                             width: 100%;
@@ -2205,7 +2208,7 @@ html{
                            justify-content: space-around;
                             img{
                                 width: 25%;
-                                height: auto;
+                                height: initial;
                                 padding: 0;
                                 padding: 0 10px;
                                 margin: 0;
@@ -2214,7 +2217,7 @@ html{
                     }
                     .detail__right{
                         width: 100%;
-                        margin-top: 20px;
+                        margin-top: 232px;
                         #name{
                         }
                         .detail__right--vote{
@@ -2542,6 +2545,7 @@ html{
                     justify-content: center;
                     .detail__left{
                         width: 100%;
+                        height: 465px;
                         padding: 0;
                         .img-main{
                             width: 100%;
@@ -2551,6 +2555,7 @@ html{
                            justify-content: space-around;
                             img{
                                 width: 25%;
+                                height: initial;
                                 height: auto;
                                 height: auto;
                                 padding: 0;
@@ -2560,8 +2565,9 @@ html{
                         }
                     }
                     .detail__right{
-                        width: 100%;
-                        margin-top: 20px;
+                        width: 100%;        
+                        margin-top: -40px;
+
                         #name{
                             font-size: 24px;
                         }
@@ -2763,15 +2769,15 @@ html{
     #aside-bar-mobile{
         height: 3623px;
     }
-    #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img{
-        height: 69.45px;
+    #detail .content__main .content__main--detail .detail .detail__right {
+        margin-top: 0px;
     }
 }
-@media (min-width:320px) and (max-width:322){
+/* @media (min-width:320px) and (max-width:322){
     #aside-bar-mobile{
         height: 3623px;
     }
-}
+} */
 
 @keyframes fadeIn {
     from{
