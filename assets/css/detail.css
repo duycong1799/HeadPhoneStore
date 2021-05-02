@@ -2260,7 +2260,7 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__left .img-main {
     width: 100%;
-    height: auto;
+    height: unset;
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg {
     justify-content: space-around;
