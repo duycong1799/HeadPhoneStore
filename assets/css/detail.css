@@ -1795,8 +1795,6 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
     width: 25%;
-    height: 62px;
-    height: auto;
     padding: 0;
     padding: 0 10px;
     margin: 0;
@@ -2007,7 +2005,6 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
     width: 25%;
-    height: initial;
     padding: 0;
     padding: 0 10px;
     margin: 0;
@@ -2271,9 +2268,6 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
     width: 25%;
-    height: initial;
-    height: auto;
-    height: auto;
     padding: 0;
     padding: 0 10px;
     margin: 0;
@@ -2412,10 +2406,6 @@ html {
 
   #aside-bar-mobile {
     height: 3623px;
-  }
-
-  #detail .content__main .content__main--detail .detail .detail__right {
-    margin-top: 0px;
   }
 }
 /* @media (min-width:320px) and (max-width:322){
