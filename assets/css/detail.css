@@ -2260,13 +2260,14 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__left .img-main {
     width: 100%;
-    height: unset;
+    height: auto;
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg {
     justify-content: space-around;
   }
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
     width: 25%;
+    height: auto;
     height: auto;
     padding: 0;
     padding: 0 10px;
