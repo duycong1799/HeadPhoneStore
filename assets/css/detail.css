@@ -2409,6 +2409,15 @@ html {
   #aside-bar-mobile {
     height: 3623px;
   }
+
+  #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
+    height: 69.45px;
+  }
+}
+@media (min-width: 320px) and (max-width: 322) {
+  #aside-bar-mobile {
+    height: 3623px;
+  }
 }
 @keyframes fadeIn {
   from {
