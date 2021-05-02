@@ -2011,6 +2011,7 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__right {
     width: 100%;
+    margin-top: 20px;
   }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--vote .vote-right ul {
     width: 135%;
@@ -2018,6 +2019,9 @@ html {
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--size .selectsize p {
     width: 74px;
     padding: 5px;
+  }
+  #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 95px;
   }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--material .selectmaterial p {
     width: 74px;
@@ -2274,6 +2278,7 @@ html {
   }
   #detail .content__main .content__main--detail .detail .detail__right {
     width: 100%;
+    margin-top: 20px;
   }
   #detail .content__main .content__main--detail .detail .detail__right #name {
     font-size: 24px;
@@ -2290,6 +2295,9 @@ html {
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--size .selectsize p {
     width: 74px;
     padding: 5px;
+  }
+  #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 95px;
   }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--material .selectmaterial p {
     width: 74px;
