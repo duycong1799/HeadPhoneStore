@@ -98,11 +98,12 @@ html {
   background-color: #fff;
   padding: 15px 20px;
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   transform: translateX(-100%);
   opacity: 0;
-  height: 3263px;
+  top: 0;
+  bottom: 0;
 }
 #aside-bar-mobile .exit {
   font-size: 28px;
@@ -1609,6 +1610,10 @@ html {
     font-size: 18px;
   }
 
+  #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 90px;
+  }
+
   #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
     width: 60px;
     height: 60px;
@@ -1705,7 +1710,6 @@ html {
 
   #aside-bar-mobile {
     display: block;
-    height: 2760px;
   }
   #aside-bar-mobile .aside .aside__service .service .description p {
     font-size: 16px;
@@ -1806,6 +1810,9 @@ html {
     width: 74px;
     padding: 5px;
   }
+  #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 95px;
+  }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--material .selectmaterial p {
     width: 74px;
   }
@@ -1895,8 +1902,6 @@ html {
   #aside-bar-mobile {
     display: block;
     width: 70%;
-    height: 3477px;
-    top: -10px;
   }
   #aside-bar-mobile .aside .aside__service .service .description p {
     font-size: 16px;
@@ -2021,7 +2026,7 @@ html {
     padding: 5px;
   }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
-    margin-left: 95px;
+    margin-left: 156px;
   }
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--material .selectmaterial p {
     width: 74px;
@@ -2129,8 +2134,6 @@ html {
   #aside-bar-mobile {
     display: block;
     width: 70%;
-    top: -10px;
-    height: 3729px;
   }
   #aside-bar-mobile .aside .aside__hotdeal img {
     height: 200px;
@@ -2323,6 +2326,15 @@ html {
     font-size: 14px;
     padding: 10px 0px;
   }
+  #detail .content__main .content__main--detail .descrip__product .descrip__product--main .wrap .list1 li {
+    font-size: 14px;
+  }
+  #detail .content__main .content__main--detail .descrip__product .descrip__product--main .wrap .list2 li {
+    font-size: 14px;
+  }
+  #detail .content__main .content__main--detail .descrip__product .descrip__product--main .wrap p {
+    font-size: 14px;
+  }
   #detail .content__main .content__main--detail .question a {
     width: 100%;
     margin: 6px 0px 0px 15px;
@@ -2412,8 +2424,8 @@ html {
     top: 37%;
   }
 
-  #aside-bar-mobile {
-    height: 3623px;
+  #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 104px;
   }
 }
 /* @media (min-width:320px) and (max-width:322){

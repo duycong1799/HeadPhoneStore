@@ -1174,6 +1174,9 @@ html {
   #blog .content__main .content__main--blogitem {
     width: 100%;
   }
+  #blog .content__main .content__main--blogitem .blog__more {
+    top: 20px;
+  }
   #blog .content__main .content__main--blogitem .blog__more .blog__view {
     padding: 0 8px;
     margin-bottom: 10px;
@@ -1185,14 +1188,23 @@ html {
     height: auto;
     border-radius: 10px;
   }
+  #blog .content__main .content__main--blogitem .blog__more .blog__view .blog__view--title {
+    margin-top: 10px;
+  }
   #blog .content__main .content__main--blogitem .blog__more .blog__view .blog__view--title a {
     font-size: 14px;
   }
   #blog .content__main .content__main--blogitem .blog__more .blog__view .blog__view--datepost {
-    font-size: 10px;
+    font-size: 8px;
+    margin-top: 10px;
+    padding: 0;
   }
   #blog .content__main .content__main--blogitem .blog__more .blog__view .blog__view--des {
     font-size: 12px;
+    margin-top: 10px;
+  }
+  #blog .content__main .content__main--blogitem .blog__more .blog__view .readmore {
+    margin-top: 10px;
   }
 
   .wrapper7 {

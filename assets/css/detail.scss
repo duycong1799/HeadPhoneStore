@@ -101,11 +101,13 @@ html{
     background-color: $color-white;
     padding: 15px 20px;
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     transform: translateX(-100%);
     opacity: 0;
-    height: 3263px;
+    // height: 3263px;
+    top: 0;
+    bottom: 0;
         .exit{
             font-size: 28px;
             text-align: right;
@@ -1727,6 +1729,9 @@ html{
     #detail .content__main .content__main--aside .aside .aside__service .service a span {
         font-size: 18px;
     }
+    #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+        margin-left: 90px;
+    }
     #detail .content__main .content__main--detail .detail .detail__left .detail__left--listImg img {
         width: 60px;
         height: 60px;
@@ -1815,7 +1820,7 @@ html{
     }
     #aside-bar-mobile{
         display: block;
-        height: 2760px;
+        // height: 2760px;
 
         .aside .aside__service .service .description p{
             font-size: 16px;
@@ -1940,6 +1945,7 @@ html{
                         }
                         .detail__right--color{
                             .menu-color{
+                                margin-left: 95px;
                             }
     
                         }
@@ -2094,8 +2100,8 @@ html{
     #aside-bar-mobile{
         display: block;
         width: 70%;
-        height: 3477px;
-        top:-10px;
+        // height: 3477px;
+        // top:-10px;
         .aside__seller{
             // display: none;
         }
@@ -2235,7 +2241,7 @@ html{
                         }
                         .detail__right--color{
                             .menu-color{
-                                margin-left: 95px;
+                                margin-left: 156px;
                             }
     
                         }
@@ -2405,8 +2411,7 @@ html{
     #aside-bar-mobile{
         display: block;
         width: 70%;
-        top: -10px;
-        height: 3729px;
+        // height: 3729px;
         .aside__seller{
             // display: none;
         }
@@ -2647,11 +2652,19 @@ html{
                     .descrip__product--main{       
                         .wrap{
                             .list1{
-
+                                li{
+                                    font-size: 14px;
+                                }
                             }
                             .list2{
+                                li{
+                                    font-size: 14px;
+                                }
                             }
                             #blockquote{
+                            }
+                            p{
+                                font-size: 14px;
                             }
                         }
                     }
@@ -2761,8 +2774,12 @@ html{
         top: 37%;
     }
     #aside-bar-mobile{
-        height: 3623px;
+        // height: 3623px;
     }
+
+    #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
+    margin-left: 104px;
+}
 }
 /* @media (min-width:320px) and (max-width:322){
     #aside-bar-mobile{
