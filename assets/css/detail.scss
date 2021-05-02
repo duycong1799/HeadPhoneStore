@@ -73,7 +73,7 @@ html{
 .filterBy{
     position: fixed;
     left: 5px;
-    top: 33%;
+    top: 50%;
     bottom: 50%;
     width: 40px;
     height: 40px;
@@ -96,7 +96,6 @@ html{
 }
 #aside-bar-mobile{
     width: 50%;
-    height: 1572px;
     margin-right: 2%;
     background-color: $color-white;
     padding: 15px 20px;
@@ -105,9 +104,9 @@ html{
     z-index: 10;
     transform: translateX(-100%);
     opacity: 0;
-    // height: 3263px;
     top: 0;
     bottom: 0;
+    overflow-y: scroll;
         .exit{
             font-size: 28px;
             text-align: right;
@@ -1817,10 +1816,11 @@ html{
 
     .filterBy{
         display: block;
+        top: 30%;
     }
     #aside-bar-mobile{
         display: block;
-        // height: 2760px;
+        height: 653px;
 
         .aside .aside__service .service .description p{
             font-size: 16px;
@@ -2100,8 +2100,7 @@ html{
     #aside-bar-mobile{
         display: block;
         width: 70%;
-        // height: 3477px;
-        // top:-10px;
+        height: 653px;
         .aside__seller{
             // display: none;
         }
@@ -2411,7 +2410,7 @@ html{
     #aside-bar-mobile{
         display: block;
         width: 70%;
-        // height: 3729px;
+        height: 653px;
         .aside__seller{
             // display: none;
         }
@@ -2771,10 +2770,10 @@ html{
 }
 @media (min-width:410px) and (max-width:417px){
     .filterBy {
-        top: 37%;
+        // top: 37%;
     }
     #aside-bar-mobile{
-        // height: 3623px;
+        height: 653px;
     }
 
     #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {

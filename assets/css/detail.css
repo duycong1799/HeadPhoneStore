@@ -70,7 +70,7 @@ html {
 .filterBy {
   position: fixed;
   left: 5px;
-  top: 33%;
+  top: 50%;
   bottom: 50%;
   width: 40px;
   height: 40px;
@@ -93,7 +93,6 @@ html {
 
 #aside-bar-mobile {
   width: 50%;
-  height: 1572px;
   margin-right: 2%;
   background-color: #fff;
   padding: 15px 20px;
@@ -104,6 +103,7 @@ html {
   opacity: 0;
   top: 0;
   bottom: 0;
+  overflow-y: scroll;
 }
 #aside-bar-mobile .exit {
   font-size: 28px;
@@ -1706,10 +1706,12 @@ html {
 
   .filterBy {
     display: block;
+    top: 30%;
   }
 
   #aside-bar-mobile {
     display: block;
+    height: 653px;
   }
   #aside-bar-mobile .aside .aside__service .service .description p {
     font-size: 16px;
@@ -1902,6 +1904,7 @@ html {
   #aside-bar-mobile {
     display: block;
     width: 70%;
+    height: 653px;
   }
   #aside-bar-mobile .aside .aside__service .service .description p {
     font-size: 16px;
@@ -2134,6 +2137,7 @@ html {
   #aside-bar-mobile {
     display: block;
     width: 70%;
+    height: 653px;
   }
   #aside-bar-mobile .aside .aside__hotdeal img {
     height: 200px;
@@ -2420,8 +2424,8 @@ html {
   }
 }
 @media (min-width: 410px) and (max-width: 417px) {
-  .filterBy {
-    top: 37%;
+  #aside-bar-mobile {
+    height: 653px;
   }
 
   #detail .content__main .content__main--detail .detail .detail__right .detail__right--color .menu-color {
