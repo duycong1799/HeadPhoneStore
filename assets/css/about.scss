@@ -1728,6 +1728,7 @@ html{
         
             }
             .ar2{
+                height: 1045px;
                 .goal-two{
                     img{
                         height: 1045px;
@@ -1943,9 +1944,16 @@ html{
         width: 100%;
         top: 20px;
     }
+    #about .wrap .ar2{
+        height: 1045px;
+    }
     #about .wrap .ar2 .content {
         height: 1045px;
     }
+    #about .wrap .ar2 .goal-two {
+        height: 1045px;
+    }
+    
     #about .wrap .ar4 {
         height: 700px;
     }
