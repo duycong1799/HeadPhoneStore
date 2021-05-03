@@ -1673,7 +1673,7 @@ html {
     font-size: 12px;
   }
   #about .wrap .ar4 {
-    height: 900px;
+    height: 765px;
   }
   #about .wrap .ar4 hr {
     top: 30px;
@@ -1687,6 +1687,7 @@ html {
     width: 90%;
     flex-wrap: wrap;
     top: 78px;
+    height: 765px;
   }
   #about .wrap .ar4 .customer .com {
     padding: 0 5px;
