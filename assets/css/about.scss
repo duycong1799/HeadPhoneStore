@@ -489,14 +489,12 @@ html{
         }
         .ar2{
             width: 100%;
-            height: 650px;
             margin-top: 60px;
             position: relative;
 
 
             .goal-two{
                 width: 100%;
-                height: 650px;
                 position: absolute;
 
                 img{
@@ -507,27 +505,16 @@ html{
                     z-index: 1;
                 }
             }
-            .bgr{
-                position: absolute;
-                width: 100%;
-                height: 650px;
-                background-color: #373737;
-                opacity: 0.1;
-                z-index:2;
-
-
-            }
             .content{
                 width: 81%;
                 margin:auto;
-                height: 650px;
                 display:flex;
                 z-index: 3;
                 position: relative;
                 align-items: center;
                 .content__left{
-                    width: 44%;
-                    margin-right: 6%;
+                    width: 50%;
+                    padding-right: 6%;
                     h2{
                         color: #fc846b;
                         font-size: 40px;
@@ -675,6 +662,7 @@ html{
                 top:150px;
                 display: flex;
                 .com{
+                    width: 33.3333%;
                     padding:0 20px;
                     p{
                         color: white;
@@ -1740,17 +1728,17 @@ html{
         
             }
             .ar2{
-                height: 1035px;
                 .goal-two{
-                    height: 1035px;
                     img{
-                        height: 1035px;
+                        height: 1012px;
                         object-position: 42% 60%;
                     }
                 }
+                .comment ~ .goal-two{
+                    height: auto;
+                }
                 .content{
                     width: 100%;
-                    height: 1035px;
                     flex-direction: column;
                     
                     .content__left{
@@ -1844,6 +1832,7 @@ html{
                     .com{
                         padding: 0 5px;
                         margin-bottom: 20px;
+                        width: 100%;
                         p{
                             font-size: 11px;
                         }
@@ -1852,6 +1841,7 @@ html{
                         .com2{
                             img{
                                 width: 40px;
+                                height: 40px;
                             }
                             .detail{
                                 h5{
@@ -1949,14 +1939,19 @@ html{
     }
 }
 @media (min-width:410px) and (max-width:417px){
-    .filterBy {
-        top: 37%;
+    #about .wrap .ar3 .ar3__left--item1 {
+        width: 100%;
+        top: 20px;
     }
-    #aside-bar-mobile{
-        height: 1600px;
+    #about .wrap .ar2 .content {
+        height: 1011px;
     }
-    #catalog .content__main .content__main--item .head .head__right .head__right--sort > select {
-        margin-left: -31px;
+    #about .wrap .ar4 {
+        height: 700px;
+    }
+    #about .wrap .ar4 .customer .com .com2 img {
+        width: 40px;
+        height: 40px;
     }
 }
 @keyframes fadeIn {
