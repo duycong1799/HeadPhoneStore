@@ -1591,10 +1591,13 @@ html {
     margin-top: 40px;
   }
   #about .wrap .ar2 {
-    height: 1045px;
+    height: 1085px;
+  }
+  #about .wrap .ar2 .goal-two {
+    height: 1085px;
   }
   #about .wrap .ar2 .goal-two img {
-    height: 1045px;
+    height: 1085px;
     object-position: 42% 60%;
   }
   #about .wrap .ar2 .comment ~ .goal-two {
