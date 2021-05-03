@@ -1311,8 +1311,10 @@ html{
                             font-size: 14px;
                         }
                         ul{
+                            float: none;
+                            width: 100%;
                             li{
-                                font-size: 12px;
+                                font-size: 14px;
                             }
     
                         }
@@ -1336,14 +1338,14 @@ html{
                             margin-left: 20px;
                             margin-top: -27px;
                             padding: 20px 0;
-                            font-size: 12px;
+                            font-size: 13px;
                             
                             h3{
-                                font-size: 12px;
+                                font-size: 14px;
                             }
                         }
                         i{
-                            font-size: 12px;
+                            font-size: 13px;
                         }
                     }
                 }
@@ -1358,25 +1360,23 @@ html{
                         margin-top: 20px;
                         &>p{
                             padding: 0px;
-                            text-align: justify;
-                            font-size: 12px;
+                            font-size: 14px;
                         }
                         
                         .ar3__select{
-                            text-align: center;
+                            flex-direction: column;
+                            text-align: left;
                             margin-top: 0px;
                             .select{
-                                margin-top: 30px;
-                                width: 50%;
+                                margin-top: 15px;
+                                width: 100%;
                                 h3{
-                                    color: #fc846b;
-                                    font-family: $font-playfair;
-                                    font-size: 12px;
+                                    font-size: 16px;
                                     margin-bottom: 5px;
                                 }
                                 &>p{
                                     padding-right: 60px;
-                                    font-size: 12px;
+                                    font-size: 14px;
                                     padding: 10px;
                                     
                                 }

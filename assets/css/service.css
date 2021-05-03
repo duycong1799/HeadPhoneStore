@@ -1211,8 +1211,12 @@ html {
   #service .content__main .content__main--ar1 .ar1 .ar1__right .ar1__right--des {
     font-size: 14px;
   }
+  #service .content__main .content__main--ar1 .ar1 .ar1__right ul {
+    float: none;
+    width: 100%;
+  }
   #service .content__main .content__main--ar1 .ar1 .ar1__right ul li {
-    font-size: 12px;
+    font-size: 14px;
   }
   #service .content__main .content__main--ar2 {
     margin-top: 30px;
@@ -1234,13 +1238,13 @@ html {
     margin-left: 20px;
     margin-top: -27px;
     padding: 20px 0;
-    font-size: 12px;
+    font-size: 13px;
   }
   #service .content__main .content__main--ar2 .ar2 .ar2__wrap .ar2__wrap--left h3, #service .content__main .content__main--ar2 .ar2 .ar2__wrap .ar2__wrap--right h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   #service .content__main .content__main--ar2 .ar2 .ar2__wrap i {
-    font-size: 12px;
+    font-size: 13px;
   }
   #service .content__main .content__main--ar3 {
     margin-top: 50px;
@@ -1254,26 +1258,24 @@ html {
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__left > p {
     padding: 0px;
-    text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__left .ar3__select {
-    text-align: center;
+    flex-direction: column;
+    text-align: left;
     margin-top: 0px;
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__left .ar3__select .select {
-    margin-top: 30px;
-    width: 50%;
+    margin-top: 15px;
+    width: 100%;
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__left .ar3__select .select h3 {
-    color: #fc846b;
-    font-family: "Playfair Display", serif;
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 5px;
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__left .ar3__select .select > p {
     padding-right: 60px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
   }
   #service .content__main .content__main--ar3 .ar3 .ar3__right {
